@@ -1,0 +1,10 @@
+rsvplist.settings:
+  type: config_object
+  label: RSVP List content tye settings
+  mapping:
+    allowed_types:
+      type: sequence
+      label: Content types the RSVP Form can be displayed on
+      sequence:
+        type: string
+        label: Content type

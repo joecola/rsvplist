@@ -1,0 +1,13 @@
+rsvplist.admin_settings.link:
+  title: 'RSVP List Settings'
+  parent: system.admin_config_content
+  route_name: rsvplist.admin_settings
+  description: 'Configure RSVP List settings.'
+  weight: 10
+
+rsvplist.report.link:
+  title: 'RSVP List Report'
+  parent: system.admin_reports
+  route_name: rsvplist.report
+  description: 'View RSVP List report.'
+  weight: -5
